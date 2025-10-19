@@ -12,11 +12,11 @@
 /* Basic body styles */
 body {
     min-height: 100vh;
-    display: flex;  
+    display: flex;
     flex-direction: column;
     /* Generic project styles */
     font-family: 'Lato', sans-serif;
-    line-height: 1.6;
+    /* line-height: 1.6;
     background-color: #f4f4f4; */
     color: #3a3a3a;
 }
@@ -24,23 +24,25 @@ body {
 /* styles for header */
 header {
     background-color: lightcoral;
-    /* padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold; */
+    
 }
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* styles for main content */
 main {
+
     background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    /* make main element take up any surplus space to push footer down */
-    /* padding: 20px;
-    font-size: 18px; */
 }
+
 /* styles for footer */
 footer {
     background-color: orange
-    /* padding: 20px;
+        /* padding: 20px;
     text-align: center;
     font-size: 16px; */
 }
