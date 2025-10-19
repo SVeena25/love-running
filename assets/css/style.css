@@ -1,0 +1,28 @@
+/*  Asterisk wildcard selector to override default styles added by the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styles for header */
+header {
+    background-color: lightcoral;
+    /* padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold; */
+}
+/* styles for main content */
+main {
+    background-color: lightblue;
+    /* padding: 20px;
+    font-size: 18px; */
+}
+/* styles for footer */
+footer {
+    background-color: orange
+    /* padding: 20px;
+    text-align: center;
+    font-size: 16px; */
+}
