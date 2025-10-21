@@ -1,27 +1,24 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-
-/*  Asterisk wildcard selector to override default styles added by the browser */
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-/* Basic body styles */
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    font-family: 'Lato', sans-serif;
-    /* line-height: 1.6;
-    background-color: #f4f4f4; */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
-/* styles for header */
+/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -50,10 +47,9 @@ h1 {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -86,21 +82,17 @@ nav {
     font-size: 2rem;
 }
 
-/* styles for main content */
+/* Main content */
 main {
-
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
-/* styles for footer */
+/* Footer */
 footer {
-    background-color: orange
-        /* padding: 20px;
-    text-align: center;
-    font-size: 16px; */
+    background-color: orange;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -112,7 +104,8 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-    }   
+    }
+
     #menu {
         display: flex;
     }
