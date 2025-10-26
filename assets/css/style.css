@@ -1,3 +1,4 @@
+
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
@@ -363,7 +364,7 @@ main {
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 927px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
